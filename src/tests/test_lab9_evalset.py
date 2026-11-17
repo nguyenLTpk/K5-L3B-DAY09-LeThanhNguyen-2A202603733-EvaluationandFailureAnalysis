@@ -8,6 +8,8 @@ import sys
 
 import pytest
 
+pytestmark = pytest.mark.student
+
 
 @pytest.fixture
 def evalset_cli(tmp_path):
