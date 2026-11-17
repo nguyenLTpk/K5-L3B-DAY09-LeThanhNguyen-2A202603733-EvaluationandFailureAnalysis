@@ -3,10 +3,10 @@
 Card này đi kèm mỗi báo cáo đánh giá phiên bản agent và được tích hợp vào quy trình CI/CD release gate.
 
 - **Run ID / eval set SHA:**
-  - Baseline v1: `E-swarm-20261117-066a` (eval set SHA: `066a1b58c49d`)
-  - Baseline v2: `E-swarm-20261117-f2b5` (eval set SHA: `f2b5bae2cff8`)
+  - Baseline v1: `E-swarm-20261117-db40` (eval set SHA: `db402860659b`)
+  - Baseline v2: `E-swarm-20261117-dd81` (eval set SHA: `dd8122edc76e`)
 - **Phiên bản:**
-  - Code: `starter/d09` · Eval set: `v1` (`066a1b58c49d`) / `v2` (`f2b5bae2cff8`)
+  - Code: `starter/d09` · Eval set: `v1` (`db402860659b`) / `v2` (`dd8122edc76e`)
   - Metric spec: `config/metric_spec.yaml` (v1.0) / `config/metric_spec_v2.yaml` (v2.0)
   - Graders: `src/lab9/graders.py` (`GRADERS`)
   - Seeds: `[11, 22, 33, 44, 55]` (eval) | Seeds A/A: `[66, 77, 88, 99, 110]`
